@@ -8,7 +8,7 @@ monthly_rate = apr/100/12
 
 interest_paid = money_owed * monthly_rate
 money_owed = money_owed + interest_paid
-
 money_owed = money_owed - payment
+
 print("Paid", payment, "of which", interest_paid, "was interest,", end=' ')
 print("Now I owed", money_owed)
